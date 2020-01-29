@@ -3,12 +3,14 @@ public class TestaValores {
 	public static void main(String[] args) {
 		Conta conta = new Conta(1337, 24226);
 		
+		conta.deposita(200);
+		
+		System.out.println(conta.getSaldo());
+		
+		conta.setAgencia(570);
+		
 		System.out.println(conta.getAgencia());
 	
-		
-		Conta conta2 = new Conta(1337, 12348);
-		Conta conta3 = new Conta(1337, 96385);
-		
 		System.out.println(Conta.getTotal());
 	}
 }
