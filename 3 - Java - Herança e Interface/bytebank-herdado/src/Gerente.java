@@ -16,8 +16,8 @@ public class Gerente extends Funcionario{
 		}
 	}
 	
-//	public double getBonificacao() {
-//		return this.salario;
-//	}
-//	
+	public double getBonificacao() {
+		return super.getBonificacao() + super.getSalario(); //super diz que a salario está definido na classe pai funcionario
+	}
+	
 }
