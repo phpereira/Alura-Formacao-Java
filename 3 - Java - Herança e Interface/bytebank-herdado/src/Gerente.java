@@ -17,6 +17,7 @@ public class Gerente extends Funcionario{
 	}
 	
 	public double getBonificacao() {
+		System.out.println("Testa bonificação do gerente");
 		return super.getBonificacao() + super.getSalario(); //super diz que a salario está definido na classe pai funcionario
 	}
 	
