@@ -1,5 +1,9 @@
 package ed2.listaligada;
 
+import java.util.LinkedList;
+
+import ed1.vetor.Aluno;
+
 public class TestaListaLigada {
 	public static void main(String[] args) {
 		ListaLigada lista = new ListaLigada();
@@ -41,5 +45,12 @@ public class TestaListaLigada {
 		
 		System.out.println(lista.contem("Guilherme"));
 		System.out.println(lista.contem("Paulo"));
+		
+		
+		Celula a1 = new Celula("Joao");
+		LinkedList<Celula> listaLigadaDoJava = new LinkedList<Celula>();
+		listaLigadaDoJava.add(a1);
+		System.out.println(listaLigadaDoJava);
+		
 	}
 }

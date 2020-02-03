@@ -97,12 +97,6 @@ public class ListaLigada {
 
 			this.totalDeElementos++;// Adiciona mais um elemento no contador.
 
-			/*
-			 * O primeiro passo é pegar a posição da célula anterior a que eu inseri. Em
-			 * seguida crio a nova célula. E já que eu tenho a ANTERIOR, eu já faço o
-			 * apontamento para próxima com base no anterior. Por último só falta fazer o
-			 * apontamento da nossa célula anterior para a que eu inseri.
-			 */
 		}
 	}
 
